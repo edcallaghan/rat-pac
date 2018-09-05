@@ -16,6 +16,7 @@
 #include <RAT/GeoBubbleFactory.hh>
 #include <RAT/GeoPerfTubeFactory.hh>
 #include <RAT/GeoPerfSphereFactory.hh>
+#include <RAT/GeoEdPerfSphereFactory.hh>
 #include <RAT/GeoRevArrayFactory.hh>
 #include <RAT/GeoTubeArrayFactory.hh>
 #include <RAT/GeoRevolutionFactory.hh>
@@ -50,6 +51,7 @@ GeoBuilder::GeoBuilder()
   new GeoBubbleFactory();
   new GeoPerfTubeFactory();
   new GeoPerfSphereFactory();
+  new GeoEdPerfSphereFactory();
   new GeoRevArrayFactory();
   new GeoTubeArrayFactory();
   new GeoRevolutionFactory();

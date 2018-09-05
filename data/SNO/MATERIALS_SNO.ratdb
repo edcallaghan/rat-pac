@@ -46,3 +46,53 @@ elements: ["Deuterium", "Oxygen",],
 elemprop: [0.2011, 0.7989],
 }
 
+{
+name: "ELEMENT",
+index: "Chlorine_SNO",
+valid_begin: [0, 0],
+valid_end: [0, 0],
+
+SYMBOL: "Cl",
+z: 17,
+a: 35.4527,
+
+isotopes: [35, 37],
+isotopes_frac: [0.75, 0.25],
+
+}
+
+{
+name: "MATERIAL",
+index: "HeavyWater_salt",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.1078,
+nelements: 4,
+nmaterials: 0,
+elements: ["Deuterium", "Oxygen", "Magnesium", "Chlorine_SNO",],
+elemprop: [0.2007, 0.7973,  0.0008, 0.0012]
+}
+
+{
+name: "MATERIAL",
+index: "pure_deuterium",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0, // obviously this is ridiculous, but who cares!
+nelements: 1,
+nmaterials: 0,
+elements: ["Deuterium"],
+elemprop: [1.0]
+}
+
+{
+name: "MATERIAL",
+index: "pure_oxygen",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 1.0, // obviously this is ridiculous, but who cares!
+nelements: 1,
+nmaterials: 0,
+elements: ["Oxygen"],
+elemprop: [1.0]
+}

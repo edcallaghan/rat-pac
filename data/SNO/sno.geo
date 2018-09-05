@@ -70,10 +70,10 @@ valid_begin: [0, 0],
 valid_end: [0, 0],
 mother: "h2o",
 type: "pmtarray",
-pmt_model: "r1408", 
+pmt_model: "r1408",
 pmt_detector_type: "idpmt",
 sensitive_detector: "/mydet/pmt/inner",
-efficiency_correction: 1.027,  
+efficiency_correction: 1.027,
 add_concentrator: 1, // Flag: 0 = no concentrators, 1 = concentrators
 pos_table: "PMTINFO",
 orientation: "point", // Aim all PMTs at a point
@@ -93,4 +93,3 @@ r_max: 6005.0, // Outer radius, mm
 material: "HeavyWater",
 color: [0.0, 0.3, 1.0, 0.2],
 }
-
